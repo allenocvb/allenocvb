@@ -27,11 +27,11 @@ while (alive) {
 **Dream**
 ```
 while (alive) {
-    if (!working) {
+    if (working) {
         money++;
     }
 
-    if (working) {
+    if (!working) {
         money++;
     }
 }
